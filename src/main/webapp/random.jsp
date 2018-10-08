@@ -17,10 +17,10 @@
         String color=colors[index];
     %>
     <!--
-    利用 <%=%>
+    利用 
     這個寫法，產生 bgcolor 屬性的內容
     -->
-    <body>
+    <body bgColor="<%=color %>">
         <h1>Hello World!</h1>
     </body>
 </html>
