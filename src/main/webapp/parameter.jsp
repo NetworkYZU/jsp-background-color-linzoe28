@@ -15,7 +15,7 @@
         String color = request.getParameter("color");//從 request.getParameter("...") 取得 color 參數
         // 額外：若 user 沒輸入參數，就隨機抓顏色
         if (color == null) {
-            String[] colors = new String[]{"red", "green", "yello", "blue", "purple", "black"};
+            String[] colors = new String[]{"red", "green", "yello", "blue", "purple", "gray"};
             int index = ((int) (Math.random() * 1000) % 6);
             color = colors[index];
         }
